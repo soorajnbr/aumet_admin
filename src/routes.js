@@ -1,17 +1,22 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { ConnectedRouter } from 'react-router-redux';
 
-import { history } from './store';
 
-import App from './containers/App';
 
+// import App from './containers/App';
+import Login from './containers/Login';
+import Dashboard from './containers/Dashboard';
+import Header from './components/Header';
+
+// console.log('props', this);
 const routes = (
-  <ConnectedRouter history={history}>
+      <div>
+          {/*{ history.location.pathname !== '/' && <Header /> }*/}
     <Switch>
-      <Route exact path="/" component={App} />
-      {/* NOTE: put other app routes here */}
+
+      <Route exact path="/" component={Login} />
+      <Route exact path="/dashboard" component={Dashboard} />
     </Switch>
-  </ConnectedRouter>
+      </div>
 );
 export default routes;

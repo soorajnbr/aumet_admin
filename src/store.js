@@ -12,6 +12,7 @@ const sagaMiddleware = createSagaMiddleware();
 
 const middlewares = [
   // Middleware for intercepting and dispatching navigation actions
+  thunk,
   routerMiddleware(history),
   sagaMiddleware,
 ];
@@ -19,7 +20,7 @@ const middlewares = [
 const store = createStore(
   createGlobalReducer(),
   compose(
-    applyMiddleware(...middlewares, thunk),
+    applyMiddleware(...middlewares),
     window.devToolsExtension ? window.devToolsExtension() : (f) => f,
   ),
 );
