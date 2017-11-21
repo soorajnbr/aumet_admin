@@ -4,6 +4,17 @@ body {
   margin: 0;
   padding: 0;
 }
+#menu li a i{
+  width: 22px;
+  font-size: 15px;
+}
+#login .fa {
+  color: #66c4ae;
+  position: absolute;
+  left: 6px;
+  top: 38px;
+  width: 30px;
+}
 .profile {
   background-color: #ffffff;
   padding: 30px 20px;

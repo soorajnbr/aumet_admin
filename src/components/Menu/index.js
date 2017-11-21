@@ -13,43 +13,43 @@ class Menu extends Component {
             <ul id="menu" className="page-sidebar-menu">
               <li>
                 <Link to="/dashboard">
-                  <i className="livicon" data-name="home" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-home" aria-hidden="true" />
                   <span className="title">Dashboard</span>
                 </Link>
               </li>
               <li>
                 <Link to="/profile">
-                  <i className="livicon" data-name="user" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-user" aria-hidden="true" />
                   <span className="title">Profile</span>
                 </Link>
               </li>
               <li>
                 <Link to="/countries">
-                  <i className="livicon" data-name="flag" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-flag" aria-hidden="true" />
                   <span className="title">Countries</span>
                 </Link>
               </li>
               <li>
                 <Link to="/regions">
-                  <i className="livicon" data-name="location" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-map-marker" aria-hidden="true" />
                   <span className="title">Regions</span>
                 </Link>
               </li>
               <li>
                 <Link to="/specialities">
-                  <i className="livicon" data-name="pencil" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-th-list" aria-hidden="true" />
                   <span className="title">Specialities</span>
                 </Link>
               </li>
               <li>
                 <Link to="/categories">
-                  <i className="livicon" data-name="list-ul" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-th-list" aria-hidden="true" />
                   <span className="title">Categories</span>
                 </Link>
               </li>
               <li>
                 <Link to="/scientificNames">
-                  <i className="livicon" data-name="sandglass" data-size="18" data-c="#fff" data-hc="#00bc8c" data-loop="true" />
+                  <i className="fa fa-flask" aria-hidden="true" />
                   <span className="title">Scientific Names</span>
                 </Link>
               </li>

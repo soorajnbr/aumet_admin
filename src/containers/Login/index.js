@@ -30,14 +30,14 @@ class Login extends Component {
                     <br />Log in</h3>
                   <p>
                     <label style={{ marginBottom: '0px' }} htmlFor="username" className="uname">
-                      <i className="livicon" data-name="user" data-size="16" data-loop="true" data-c="#66c4ae" data-hc="#66c4ae" />
+                      <i className="fa fa-user-o" aria-hidden="true"></i>
                                         E- mail or Username
                     </label>
                     <input id="username" name="username" required type="text" placeholder="username or e-mail" />
                   </p>
                   <p>
                     <label style={{ marginBottom: '0px' }} htmlFor="password" className="youpasswd">
-                      <i className="livicon" data-name="key" data-size="16" data-loop="true" data-c="#66c4ae" data-hc="#66c4ae" />
+                      <i className="fa fa-key" aria-hidden="true"></i>
                                         Password
                     </label>
                     <input id="password" name="password" required type="password" placeholder="eg. X8df!90EO" />
