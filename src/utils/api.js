@@ -16,6 +16,7 @@ function _apiCall(path, options = {}) {
 
   if (methodsWithPayload.indexOf(defaultedOptions.method) > -1 && defaultedOptions.body) {
     defaultedOptions.headers['Content-Type'] = 'application/json';
+    defaultedOptions.headers['X-Requested-With'] = 'XMLHttpRequest';
     defaultedOptions.body = typeof defaultedOptions.body === 'string'
       ? defaultedOptions.body
       : JSON.stringify(defaultedOptions.body);
